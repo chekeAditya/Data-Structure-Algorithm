@@ -39,7 +39,7 @@ package Basic_To_Advanced_DataStructure.Recursion;
 
 import java.util.Scanner;
 
-public class FactorialRecursion {
+public class A_FactorialRecursion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

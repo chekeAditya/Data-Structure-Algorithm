@@ -42,7 +42,7 @@ package Basic_To_Advanced_DataStructure.Recursion;
 
 import java.util.Scanner;
 
-public class FibonacciRecursion {
+public class A_FibonacciRecursion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
