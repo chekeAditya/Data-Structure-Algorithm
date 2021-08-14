@@ -48,36 +48,11 @@ public class A_Nearest_Greater_To_Right_Next_Largest_Element {
         System.out.println("");
         Collections.reverse(list);
         for (Integer i : list) {
-
             System.out.print(i + " ");
         }
         System.out.println(" ");
-
     }
 }
-//        List<Integer> arrayList = new ArrayList<>();
-//        Stack<Integer> stack = new Stack<>();
-//        for (int i = arr.length - 1; i >= 0; i--) {
-//            if (stack.isEmpty())
-//                arrayList.add(-1);
-//            else if (stack.size() > 0 && stack.peek() > arr[i])
-//                arrayList.add(stack.peek());
-//            else if (stack.size() > 0 && stack.peek() < arr[i])
-//                while (stack.size() > 0 && stack.peek() < arr[i]) {
-//                    stack.pop();
-//                }
-//            if (stack.size() == 0) //stack.isEmpty
-//                arrayList.add(-1);
-//            else
-//                arrayList.add(stack.peek());
-//            stack.push(arr[i]);
-//
-//        }
-//        Collections.reverse(arrayList);
-//        for (int i : arrayList)
-//            System.out.print(i + " ");
-//    }
-//}
 /*
 4
 1 3 2 4

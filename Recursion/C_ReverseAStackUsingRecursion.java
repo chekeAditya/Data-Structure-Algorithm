@@ -9,7 +9,7 @@
 //
 //    }
 //
-//    static void res(char x) {
+//    static void generateAllSubstring(char x) {
 //        Stack<Character> stack = new Stack<>();
 //        if (stack.isEmpty())
 //            stack.push(x);
@@ -17,7 +17,7 @@
 //        else {
 //            char a = stack.peek();
 //            stack.pop();
-//            res(x);
+//            generateAllSubstring(x);
 //
 //            stack.push(a);
 //        }
@@ -28,7 +28,7 @@
 //            char x = stack.peek();
 //            stack.pop();
 //            reverse();
-//            res(x);
+//            generateAllSubstring(x);
 //        }
 //    }
 //}
