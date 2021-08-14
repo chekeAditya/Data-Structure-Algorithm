@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Recursion;
+package Basic_To_Advanced_DataStructure.Recursion.OJ;
 
 import java.util.Scanner;
 

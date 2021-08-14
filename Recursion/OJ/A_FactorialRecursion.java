@@ -35,7 +35,7 @@
  * Factorial of 5 = 5*4*3*2*1 = 120
  */
 
-package Basic_To_Advanced_DataStructure.Recursion;
+package Basic_To_Advanced_DataStructure.Recursion.OJ;
 
 import java.util.Scanner;
 
