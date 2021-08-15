@@ -1,6 +1,6 @@
 /**
- * Print Number from 1 to n
- * Print number from n to 1
+ * Print number from n to 1 using Recursion
+ * Print Number from 1 to n using Recursion
  */
 
 package Basic_To_Advanced_DataStructure.Recursion.BasicToAdvanced;

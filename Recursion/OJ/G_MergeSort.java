@@ -56,8 +56,8 @@ public class G_MergeSort {
         }
     }
 
-    static void merge_sort(int arr[], int l, int r) {
-        if (l < r) {
+    static void merge_sort(int[] arr, int l, int r) {
+        if (l > r) {
             int m = l + (r - l) / 2;
             merge_sort(arr, l, m);
             merge_sort(arr, m + 1, r);
