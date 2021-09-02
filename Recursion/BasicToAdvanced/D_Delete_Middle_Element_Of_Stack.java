@@ -48,7 +48,3 @@ public class D_Delete_Middle_Element_Of_Stack {
 
     }
 }
-/*
-4 2
-1 2 3 4
- */
