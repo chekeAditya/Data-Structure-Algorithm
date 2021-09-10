@@ -54,20 +54,20 @@ public class SquareRoot {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
         while (t-- > 0) {
-            int n = scanner.nextInt();
-            System.out.println(sqrt(0,n-1,n));
+            long n = scanner.nextInt();
+            System.out.println(res(0,n-1,n));
         }
     }
 
-    static int sqrt(int low, int high, int N) {
+    static long res(long low, long high, long N) {
         if (low <= high) {
-            int mid = (int) (low + high) / 2;
+            long mid =  (low + high) / 2;
             if ((mid * mid <= N) && ((mid + 1) * (mid + 1) > N))
                 return mid;
             else if (mid * mid < N)
-                return sqrt(mid + 1, high, N);
+                return res(mid + 1, high, N);
             else
-                return sqrt(low, mid - 1, N);
+                return res(low, mid - 1, N);
         }
         return low;
     }
