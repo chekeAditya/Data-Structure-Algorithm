@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Basic.Masai;
+package Basic_To_Advanced_DataStructure.Basic;
 
 /**
  * Tickets Booking -12412:34:25

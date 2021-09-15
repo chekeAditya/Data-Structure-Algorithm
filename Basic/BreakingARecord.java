@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Basic.Masai;
+package Basic_To_Advanced_DataStructure.Basic;
 
 /**
  * Breaking a record

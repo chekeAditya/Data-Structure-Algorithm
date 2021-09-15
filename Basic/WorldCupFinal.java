@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Basic.Masai;
+package Basic_To_Advanced_DataStructure.Basic;
 
 /**
  * World Cup Final -12412:15:26
