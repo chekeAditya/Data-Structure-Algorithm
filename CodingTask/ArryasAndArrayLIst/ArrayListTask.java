@@ -39,5 +39,8 @@ public class ArrayListTask {
 
     static void changeElementAtIndex(ArrayList<String> arrayList) {
         arrayList.set(3, "Masai");
+        for (String i : arrayList) {
+            System.out.println(i);
+        }
     }
 }
