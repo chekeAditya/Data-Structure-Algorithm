@@ -42,16 +42,44 @@ public class EverythingRelatedToBinarySearch {
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = scanner.nextInt();
         int k = scanner.nextInt();
+        System.out.print(firstOccurence(arr, k) + " ");
+        System.out.print(lastOccurence(arr, k) + " ");
+        System.out.println(frequency(arr,k));
     }
 
-    static void firstOccurence(int[] arr, int k) {
-        int start = 0, end = arr.length - 1;
-        while (start < end) {
+    static int firstOccurence(int[] arr, int k) {
+        int start = 0, end = arr.length - 1, temp = -1;
+        while (start <= end) {
             int mid = start + (end - start) / 2;
             if (arr[start] == k) {
-
-//            }else if (arr[start] )
-            }
+                temp = mid;
+                end = mid - 1;
+            } else if (arr[mid] > k) {
+                end = mid - 1;
+            } else start = mid + 1;
         }
+        return temp;
+    }
+
+    static int lastOccurence(int[] arr, int k) {
+        int start = 0, end = arr.length - 1, temp = -1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (arr[start] == k) {
+                temp = mid;
+                start = mid + 1;
+            } else if (arr[mid] > k) end = mid - 1;
+            else start = mid + 1;
+        }
+        return temp;
+    }
+
+    static int frequency(int[] arr, int k) {
+        int y = lastOccurence(arr, k), x = firstOccurence(arr, k);
+
+        if (y != -1 || x != -1) {
+            return y - x + 1;
+        }
+        return 0;
     }
 }

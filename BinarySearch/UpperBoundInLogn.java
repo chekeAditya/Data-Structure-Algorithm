@@ -12,16 +12,16 @@ public class UpperBoundInLogn {
         System.out.println(upperBound(arr, n, k, 0, n));
     }
 
-    static int upperBound(int arr[], int N, int k, int low, int high) {
+    static int upperBound(int[] arr, int N, int k, int low, int high) {
+        int res = -1;
         while (low < high) {
             int mid = low + (high - low) / 2;
-            if (k >= arr[mid])
+            if (k < arr[mid]) {
+                res = mid;
+                high = mid ;
+            } else
                 low = mid + 1;
-            else
-                high = mid;
         }
-        if (low < N && arr[low] <= k)
-            low++;
-        return low;
+        return res;
     }
 }
