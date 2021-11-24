@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class AnagramDetector {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String str1 = scanner.nextLine();
-        String str2 = scanner.nextLine();
+        int sum = 0;
+        for (int i = 31; i <= 40; i++) {
+            sum = sum + i;
+        }
+
+        System.out.println(sum);
     }
 }
