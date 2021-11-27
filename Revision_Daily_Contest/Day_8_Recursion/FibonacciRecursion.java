@@ -47,14 +47,14 @@ public class FibonacciRecursion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        System.out.println(res(n));
+        System.out.println(fibonachi(n));
     }
 
-    static int res(int n) {
+    static int fibonachi(int n) {
         if (n <= 1)
             return n;
         else
-            return res(n-1) + res(n-2);
+            return fibonachi(n-1) + fibonachi(n-2);
     }
 
 }
