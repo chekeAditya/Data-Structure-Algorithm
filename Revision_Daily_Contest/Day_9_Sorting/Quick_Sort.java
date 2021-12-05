@@ -67,8 +67,8 @@ public class Quick_Sort {
         int pivot = arr[high];
         int i = (low - 1);
         for (int j = low; j <= high - 1; j++) {
-            if (arr[j] < pivot) {    //ascending order
-//            if (arr[j] > pivot) {    //descending order
+//            if (arr[j] < pivot) {    //ascending order
+            if (arr[j] > pivot) {    //descending order
                 i++;
                 swap(arr, i, j);
             }
