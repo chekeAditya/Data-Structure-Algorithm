@@ -46,7 +46,7 @@ public class Quick_Sort {
         int n = scanner.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = scanner.nextInt();
-        quickSort(arr, 0, n - 1);
+        quick(arr, 0, n - 1);
         printArray(arr);
     }
 
@@ -55,11 +55,11 @@ public class Quick_Sort {
     }
 
 
-    static void quickSort(int[] arr, int low, int high) {
+    static void quick(int[] arr, int low, int high) {
         if (low < high) {
             int pivot = sortingAlgo(arr, low, high);
-            quickSort(arr, low, pivot - 1);
-            quickSort(arr, pivot + 1, high);
+            quick(arr, low, pivot - 1);
+            quick(arr, pivot + 1, high);
         }
     }
 
