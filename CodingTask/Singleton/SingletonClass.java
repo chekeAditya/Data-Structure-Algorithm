@@ -1,18 +1,18 @@
 package Basic_To_Advanced_DataStructure.CodingTask.Singleton;
 
-public class Singleton {
+public class SingletonClass {
 
-    private static Singleton single_instance = null;
+    private static SingletonClass single_instance = null;
 
     public String s;
 
-    private Singleton() {
+    private SingletonClass() {
         s = "Hello, String in Singleton Class";
     }
 
-    public static Singleton getInstance() {
+    public static SingletonClass getInstance() {
         if (single_instance == null) {
-            single_instance = new Singleton();
+            single_instance = new SingletonClass();
         }
         return single_instance;
     }
@@ -21,9 +21,9 @@ public class Singleton {
 
 class mainRunningClass {
     public static void main(String[] args) {
-        Singleton x = Singleton.getInstance();
-        Singleton y = Singleton.getInstance();
-        Singleton z = Singleton.getInstance();
+        SingletonClass x = SingletonClass.getInstance();
+        SingletonClass y = SingletonClass.getInstance();
+        SingletonClass z = SingletonClass.getInstance();
         System.out.println("Hashcode of x :- " + x);
         System.out.println("Hashcode of y :- " + y);
         System.out.println("Hashcode of z :- " + z);
