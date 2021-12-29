@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Hackerrank;
+package Basic_To_Advanced_DataStructure.RandomQuestion;
 
 import java.util.Scanner;
 
