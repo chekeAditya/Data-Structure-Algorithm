@@ -20,19 +20,22 @@ fun rollDice(
 fun main() {
 
     /** if it's at the end then you can pass it outside the argument also it's called trailing lambda
-        rollDice(1..6, 4) { result ->
-            println(result)
-        }
+    rollDice(1..6, 4) { result ->
+    println(result)
+    }
      */
 
     rollDice(1..6, 4, { result ->
         println(result)
     })
 
-    val result = rollDice {  }
+    val result = rollDice { }
     println(result)
+
 }
 
-fun rollDice(callback: (result: Int) -> Unit) : String{
+fun rollDice(callback: (result: Int) -> Unit): String {
     return "Dice Rolled"
 }
+
+
