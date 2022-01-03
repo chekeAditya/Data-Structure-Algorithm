@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.CodingTask.Solid_Princile;
+package Basic_To_Advanced_DataStructure.CodingTask.Solid_Principle;
 
 public class Single_Responsibility_Principle {
 
