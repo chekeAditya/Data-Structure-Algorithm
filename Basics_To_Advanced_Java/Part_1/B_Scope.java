@@ -1,6 +1,6 @@
 package Basic_To_Advanced_DataStructure.Basics_To_Advanced_Java.Part_1;
 
-public class Scope {
+public class B_Scope {
     public static void main(String[] args) {
         /*
          * It means where we can access our variables

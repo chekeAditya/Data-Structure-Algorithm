@@ -2,7 +2,7 @@ package Basic_To_Advanced_DataStructure.Basics_To_Advanced_Java.Part_1;
 
 import java.util.Arrays;
 
-public class Swap_Two_Numbers {
+public class A_Swap_Two_Numbers {
 
     public static void main(String[] args) {
         int a, b;

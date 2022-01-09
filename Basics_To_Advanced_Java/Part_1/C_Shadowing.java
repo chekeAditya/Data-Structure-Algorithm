@@ -1,6 +1,6 @@
 package Basic_To_Advanced_DataStructure.Basics_To_Advanced_Java.Part_1;
 
-public class Shadowing {
+public class C_Shadowing {
 
     /**
      * Shadowing is basically a practice of using 2 variable with the same name within the scope that overlaps
