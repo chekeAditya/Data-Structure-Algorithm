@@ -1,4 +1,4 @@
-package Basic_To_Advanced_DataStructure.Basics_To_Advanced_Java.Part_1;
+package Basic_To_Advanced_DataStructure.Basics_To_Advanced_Java.Part_1_Funtion_Methods;
 
 public class C_Shadowing {
 
