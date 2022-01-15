@@ -7,7 +7,7 @@ public class B_Order_Agnostic_BinarySearch {
      * <p>
      * Take first and last element
      * Ascending Order => if first element is greater than last it's ascending
-     * Descending Order => if first element is smaller than last it's descending
+     * Descending Order => if first elem ent is smaller than last it's descending
      */
     public static void main(String[] args) {
         int[] arrAscending = {1, 2, 3, 4, 5, 6, 9, 18, 90, 1919};
