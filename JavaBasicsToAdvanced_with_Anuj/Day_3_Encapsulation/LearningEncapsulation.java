@@ -7,7 +7,7 @@ public class LearningEncapsulation {
 //        secret.data = 10; //here we cannot change its data
 
         /* If you have to set the data then you can use setData function */
-        secret.setData(100);
+        secret.setData(4);
         /* For Getting the data you can use getData function */
         System.out.println(secret.getData());
 
@@ -23,6 +23,7 @@ class Secret {
         // Here we can also add the condition
         if (data >= 100)
             this.data = data;
+        else System.out.println("Not Allowed");
     }
 
     /* For returning the data we can use getData function */
