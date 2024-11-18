@@ -8,7 +8,7 @@ public class G_Pyramid_Star {
 
     private static void printRectangleStars(int n) {
         for (int i = 0; i < n; i++) {
-            // space
+
             for (int j = 0; j < n - i + 1; j++) {
                 System.out.print(" ");
             }
